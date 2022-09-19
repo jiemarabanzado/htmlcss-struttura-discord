@@ -61,22 +61,34 @@
     height: 630px;
     background-color: #23272a;
 }
-.debug .small-footer{
-    background-color:#23272a ;
-    height: 110px;
-}
 .debug .col-grande{
     background-color: #f08080;
     height: 575px;
-    border: 1px solid black;
+    border: 1px dashed black;
 }
 .debug .col-piccolo{
     background-color: #20b2aa;
     height: 575px;
-    border: 1px solid black;
+    border: 1px dashed black;
 }
 .debug .navigazioni{
     height: 575px;
+}
+.debug .foot{
+    background-color: #7fffd4;
+    height: 80px;
+}
+.debug .small-footer{
+    background-color:#23272a ;
+    height: 110px;
+}
+.debug .logobot{
+    background-color: #ffb6c1;
+    border: 1px dashed black;
+}
+.debug .registrati{
+    background-color: #ffb6c1;
+    border: 1px dashed black;
 }
 /*--------
   common
@@ -129,4 +141,9 @@
 }
 .navigazioni{
     display: flex;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
