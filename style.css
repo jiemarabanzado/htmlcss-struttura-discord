@@ -21,13 +21,17 @@
 .debug .download-window{
     height: 500px;
     background-color: #00008b;
+    padding-top: 50px;
 }
 .debug .download{
     background-color: #ee82ee;
     max-width: 910px;
     height: 400px;
-
+    margin: auto;
+    border: 2px solid black;
+    
 }
+.debug .conten
 /*--------
   common
   ----*/
