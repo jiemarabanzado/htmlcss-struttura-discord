@@ -2,6 +2,7 @@
     box-sizing: border-box;
 
     margin:0px;
+    padding: 0px;
 }
 
 /*------------
@@ -31,7 +32,22 @@
     border: 2px solid black;
     
 }
-.debug .conten
+.debug .content{
+    height: 600px;
+}
+.debug .row{
+    background-color: white;
+    border: 1px solid black;
+}
+.debug .col-big{
+    background-color: #1e90ff;
+    height: 500px;
+}
+.debug .col-small{
+    background-color: #ffc0cb;
+    height: 500px;
+}
+
 /*--------
   common
   ----*/
@@ -50,4 +66,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+/*-------
+  main---*/
+.content{
+    padding-top: 50px; 
+}
+.row{
+    display: flex;
+}
+.col-big{
+    max-width: 60%;
+
+}
+.col-small{
+    max-width: 40%;
+}
+.sezioni :nth-child(even){
+    background-color: #d3d3d3;
 }
