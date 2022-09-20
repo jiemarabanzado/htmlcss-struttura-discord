@@ -118,11 +118,11 @@
     display: flex;
 }
 .col-big{
-    max-width: 60%;
+    width: 60%;
 
 }
 .col-small{
-    max-width: 40%;
+   width: 40%;
 }
 .content:nth-child(2){
     background-color: #d3d3d3;
@@ -134,10 +134,10 @@
    margin-bottom: 2px;
 }
 .col-grande{
-    max-width: 30%;
+    width: 30%;
 }
 .col-piccolo{
-    max-width: 17.5%;
+    width: 17.5%;
 }
 .navigazioni{
     display: flex;
